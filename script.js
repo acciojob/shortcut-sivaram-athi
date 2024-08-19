@@ -1,5 +1,11 @@
 function shortcut(s1, s2) {
   // your code here
+	 if (s1 === '' || s2 === '') {
+    return ''; 
+  }
+  
+  // Return the first character of each string concatenated together
+  return s1[0] + s2[0];
 }
 
 // Do not change the code below.
